@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -49,8 +48,6 @@ namespace VintageStuff.Controllers
 
 
         }
-
-
         // GET: Camisetas/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -108,8 +105,6 @@ namespace VintageStuff.Controllers
         }
 
         // POST: Camisetas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Marca,Modelo,Id")] Camiseta camiseta)

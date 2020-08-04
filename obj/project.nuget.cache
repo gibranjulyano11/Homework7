@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XAC/Gms1D41UVQ6hM54Kjom8ZT1IfCBLFlDijUwR3QzcGCTMWBb/oDkKBFXePOhs7+5NZUoOTuG6UqvzTkIFCw==",
+  "dgSpecHash": "grHyl4Rkva2lMARx7zAKWGQORm7u5AM6K3pY29CQh+JpPORkUVAdrWmR73OQVi6jeomtueyRPnTpgfDCPLl+Ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Nueva carpeta\\VintageStuff\\VintageStuff.csproj",
+  "projectFilePath": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Deberes GG\\Homework7\\VintageStuff.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gibra\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\gibra\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",

@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -11,8 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using VintageStuff.Data;
 using VintageStuff.Models;
-using VintageStuff.Web.Models;
-using VintageStuff.Web.ViewModels;
+using VintageStuff.ViewModels;
 
 namespace VintageStuff.Controllers
 {
@@ -24,11 +21,6 @@ namespace VintageStuff.Controllers
         {
             _logger = logger;
         }
-
-        //public IActionResult Index()
-        //{
-          //  return View();
-        //}
 
         public IActionResult Privacy()
         {
@@ -93,7 +85,7 @@ namespace VintageStuff.Controllers
             }
             return unicoArchivo;
         }
-    
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -102,5 +94,4 @@ namespace VintageStuff.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
-
-    }
+}

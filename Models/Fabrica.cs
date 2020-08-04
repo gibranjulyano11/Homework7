@@ -2,7 +2,7 @@
 {
     public class Fabrica
     {
-        public Camiseta CrearCamiseta(string marca = "cuello cuadrado", string modelo = "polo")
+        public Camiseta CrearCamiseta(string marca = "Zero", string modelo = "Polo")
         {
             Camiseta camiseta = new Camiseta(marca, modelo);
             return camiseta;

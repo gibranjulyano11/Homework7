@@ -8962,11 +8962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Nueva carpeta\\VintageStuff\\VintageStuff.csproj",
+      "projectUniqueName": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Deberes GG\\Homework7\\VintageStuff.csproj",
       "projectName": "VintageStuff",
-      "projectPath": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Nueva carpeta\\VintageStuff\\VintageStuff.csproj",
+      "projectPath": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Deberes GG\\Homework7\\VintageStuff.csproj",
       "packagesPath": "C:\\Users\\gibra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Nueva carpeta\\VintageStuff\\obj\\",
+      "outputPath": "C:\\Users\\gibra\\OneDrive\\Escritorio\\Deberes GG\\Homework7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gibra\\AppData\\Roaming\\NuGet\\NuGet.Config",

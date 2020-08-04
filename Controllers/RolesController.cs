@@ -1,14 +1,12 @@
-﻿using AfectacionMedioAmbiente.Web.Models;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using VintageStuff.Models;
-using VintageStuff.Web.Models;
 
-namespace VintageStuff.Web.Controllers
+namespace VintageStuff.Controllers
 {
     [Authorize(Roles = "Administrador,Usuario")]
     public class RolesController : Controller

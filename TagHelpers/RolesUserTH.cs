@@ -35,5 +35,4 @@ namespace VintageStuff.TagHelpers
             output.Content.SetContent(names.Count == 0 ? "No Users" : string.Join(", ", names));
         }
     }
-
 }

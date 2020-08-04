@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Mateo\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Mateo\\.nuget\\packages"
+      "C:\\Users\\gibra\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gibra\\.nuget\\packages"
     ]
   }
 }

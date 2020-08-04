@@ -1,5 +1,3 @@
-using System;
-
 namespace VintageStuff.Models
 {
     public class ErrorViewModel
